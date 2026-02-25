@@ -1,0 +1,7 @@
+{
+  "nombre_persona": "Nombre completo de una persona fisica, incluyendo nombre y apellidos cuando aparezcan. Asegurate que es de una persona y no de un animal o cosa",
+  "dni_persona": "Documento Nacional de Identidad de una persona en formato espanol, normalmente 8 digitos seguidos de una letra (por ejemplo, 12345678Z).",
+  "nombre_animal": "Nombre propio de un animal",
+  "nombre_ciudad": "Nombre de una ciudad"
+
+}
