@@ -1,0 +1,8 @@
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+python-multipart==0.0.20
+gliner2==1.2.4
+requests==2.32.5
+urllib3==2.6.3
+torch==2.7.0
