@@ -1,0 +1,211 @@
+{"input":"La oficina principal esta en la C\\ Gran Via 28 de Madrid y abre a las 9.", "output":{"entities":{"domicilio":["C\\ Gran Via 28"],"ciudad":["Madrid"]}}}
+{"input":"Envia la documentacion a la C\\ Alcala 45, 28014 Madrid, a nombre de Laura.", "output":{"entities":{"domicilio":["C\\ Alcala 45"],"ciudad":["Madrid"],"persona":["Laura"]}}}
+{"input":"El paquete fue entregado en la avenida Diagonal 640 de Barcelona.", "output":{"entities":{"domicilio":["avenida Diagonal 640"],"ciudad":["Barcelona"]}}}
+{"input":"Quedamos en la c\\ Serrano 12 para la reunion con el cliente.", "output":{"entities":{"domicilio":["c\\ Serrano 12"]}}}
+{"input":"La incidencia se reporto desde la C\\ de Atocha 117 en Madrid Centro.", "output":{"entities":{"domicilio":["C\\ de Atocha 117"],"ciudad":["Madrid"]}}}
+{"input":"La tienda nueva estara en la plaza Catalunya 10 de Barcelona.", "output":{"entities":{"domicilio":["plaza Catalunya 10"],"ciudad":["Barcelona"]}}}
+{"input":"Mi direccion fiscal es C\\ Mayor 3, Toledo.", "output":{"entities":{"domicilio":["C\\ Mayor 3"],"ciudad":["Toledo"]}}}
+{"input":"El tecnico visito la C\\ Velazquez 77 de Madrid el lunes.", "output":{"entities":{"domicilio":["C\\ Velazquez 77"],"ciudad":["Madrid"]}}}
+{"input":"Registramos la sede en paseo de la Castellana 259, Madrid.", "output":{"entities":{"domicilio":["paseo de la Castellana 259"],"ciudad":["Madrid"]}}}
+{"input":"La cita sera en la ronda de Valencia 8 antes del mediodia.", "output":{"entities":{"domicilio":["ronda de Valencia 8"]}}}
+{"input":"La entrevista sera en la C\\ Simon Hernandez.", "output":{"entities":{"domicilio":["C\\ Simon Hernandez"]}}}
+{"input":"Enviar la documentacion a C/ Mayor 11, Madrid.","output":{"entities":{"domicilio":["C/ Mayor 11"],"ciudad":["Madrid"]}}}
+{"input":"Enviar la documentacion a C. Real 12, Barcelona.","output":{"entities":{"domicilio":["C. Real 12"],"ciudad":["Barcelona"]}}}
+{"input":"Enviar la documentacion a C/ Sol 13, Valencia.","output":{"entities":{"domicilio":["C/ Sol 13"],"ciudad":["Valencia"]}}}
+{"input":"Enviar la documentacion a C. Norte 14, Sevilla.","output":{"entities":{"domicilio":["C. Norte 14"],"ciudad":["Sevilla"]}}}
+{"input":"Enviar la documentacion a C/ Sur 15, Malaga.","output":{"entities":{"domicilio":["C/ Sur 15"],"ciudad":["Malaga"]}}}
+{"input":"Enviar la documentacion a C. Luna 16, Bilbao.","output":{"entities":{"domicilio":["C. Luna 16"],"ciudad":["Bilbao"]}}}
+{"input":"Enviar la documentacion a C/ Prado 17, Zaragoza.","output":{"entities":{"domicilio":["C/ Prado 17"],"ciudad":["Zaragoza"]}}}
+{"input":"Enviar la documentacion a C. Olmo 18, Murcia.","output":{"entities":{"domicilio":["C. Olmo 18"],"ciudad":["Murcia"]}}}
+{"input":"Enviar la documentacion a C/ Pino 19, Valladolid.","output":{"entities":{"domicilio":["C/ Pino 19"],"ciudad":["Valladolid"]}}}
+{"input":"Enviar la documentacion a C. Jardines 20, Alicante.","output":{"entities":{"domicilio":["C. Jardines 20"],"ciudad":["Alicante"]}}}
+{"input":"Enviar la documentacion a C/ Alameda 21, Cordoba.","output":{"entities":{"domicilio":["C/ Alameda 21"],"ciudad":["Cordoba"]}}}
+{"input":"Enviar la documentacion a C. Retiro 22, Granada.","output":{"entities":{"domicilio":["C. Retiro 22"],"ciudad":["Granada"]}}}
+{"input":"Enviar la documentacion a C/ Castilla 23, Oviedo.","output":{"entities":{"domicilio":["C/ Castilla 23"],"ciudad":["Oviedo"]}}}
+{"input":"Enviar la documentacion a C. Rioja 24, Gijon.","output":{"entities":{"domicilio":["C. Rioja 24"],"ciudad":["Gijon"]}}}
+{"input":"Enviar la documentacion a C/ Toledo 25, Santander.","output":{"entities":{"domicilio":["C/ Toledo 25"],"ciudad":["Santander"]}}}
+{"input":"Enviar la documentacion a C. Leon 26, Salamanca.","output":{"entities":{"domicilio":["C. Leon 26"],"ciudad":["Salamanca"]}}}
+{"input":"Enviar la documentacion a C/ Huelva 27, Madrid.","output":{"entities":{"domicilio":["C/ Huelva 27"],"ciudad":["Madrid"]}}}
+{"input":"Enviar la documentacion a C. Cadiz 28, Barcelona.","output":{"entities":{"domicilio":["C. Cadiz 28"],"ciudad":["Barcelona"]}}}
+{"input":"Enviar la documentacion a C/ Segovia 29, Valencia.","output":{"entities":{"domicilio":["C/ Segovia 29"],"ciudad":["Valencia"]}}}
+{"input":"Enviar la documentacion a C. Zamora 30, Sevilla.","output":{"entities":{"domicilio":["C. Zamora 30"],"ciudad":["Sevilla"]}}}
+{"input":"Enviar la documentacion a C/ Soria 31, Malaga.","output":{"entities":{"domicilio":["C/ Soria 31"],"ciudad":["Malaga"]}}}
+{"input":"Enviar la documentacion a C. Lugo 32, Bilbao.","output":{"entities":{"domicilio":["C. Lugo 32"],"ciudad":["Bilbao"]}}}
+{"input":"Enviar la documentacion a C/ Burgos 33, Zaragoza.","output":{"entities":{"domicilio":["C/ Burgos 33"],"ciudad":["Zaragoza"]}}}
+{"input":"Enviar la documentacion a C. Navarra 34, Murcia.","output":{"entities":{"domicilio":["C. Navarra 34"],"ciudad":["Murcia"]}}}
+{"input":"Enviar la documentacion a C/ Mayor 35, Valladolid.","output":{"entities":{"domicilio":["C/ Mayor 35"],"ciudad":["Valladolid"]}}}
+{"input":"Enviar la documentacion a C. Real 36, Alicante.","output":{"entities":{"domicilio":["C. Real 36"],"ciudad":["Alicante"]}}}
+{"input":"Enviar la documentacion a C/ Sol 37, Cordoba.","output":{"entities":{"domicilio":["C/ Sol 37"],"ciudad":["Cordoba"]}}}
+{"input":"Enviar la documentacion a C. Norte 38, Granada.","output":{"entities":{"domicilio":["C. Norte 38"],"ciudad":["Granada"]}}}
+{"input":"Enviar la documentacion a C/ Sur 39, Oviedo.","output":{"entities":{"domicilio":["C/ Sur 39"],"ciudad":["Oviedo"]}}}
+{"input":"Enviar la documentacion a C. Luna 40, Gijon.","output":{"entities":{"domicilio":["C. Luna 40"],"ciudad":["Gijon"]}}}
+{"input":"Enviar la documentacion a C/ Prado 41, Santander.","output":{"entities":{"domicilio":["C/ Prado 41"],"ciudad":["Santander"]}}}
+{"input":"Enviar la documentacion a C. Olmo 42, Salamanca.","output":{"entities":{"domicilio":["C. Olmo 42"],"ciudad":["Salamanca"]}}}
+{"input":"Enviar la documentacion a C/ Pino 43, Madrid.","output":{"entities":{"domicilio":["C/ Pino 43"],"ciudad":["Madrid"]}}}
+{"input":"Enviar la documentacion a C. Jardines 44, Barcelona.","output":{"entities":{"domicilio":["C. Jardines 44"],"ciudad":["Barcelona"]}}}
+{"input":"Enviar la documentacion a C/ Alameda 45, Valencia.","output":{"entities":{"domicilio":["C/ Alameda 45"],"ciudad":["Valencia"]}}}
+{"input":"Enviar la documentacion a C. Retiro 46, Sevilla.","output":{"entities":{"domicilio":["C. Retiro 46"],"ciudad":["Sevilla"]}}}
+{"input":"Enviar la documentacion a C/ Castilla 47, Malaga.","output":{"entities":{"domicilio":["C/ Castilla 47"],"ciudad":["Malaga"]}}}
+{"input":"Enviar la documentacion a C. Rioja 48, Bilbao.","output":{"entities":{"domicilio":["C. Rioja 48"],"ciudad":["Bilbao"]}}}
+{"input":"Enviar la documentacion a C/ Toledo 49, Zaragoza.","output":{"entities":{"domicilio":["C/ Toledo 49"],"ciudad":["Zaragoza"]}}}
+{"input":"Enviar la documentacion a C. Leon 50, Murcia.","output":{"entities":{"domicilio":["C. Leon 50"],"ciudad":["Murcia"]}}}
+{"input":"Enviar la documentacion a C/ Huelva 51, Valladolid.","output":{"entities":{"domicilio":["C/ Huelva 51"],"ciudad":["Valladolid"]}}}
+{"input":"Enviar la documentacion a C. Cadiz 52, Alicante.","output":{"entities":{"domicilio":["C. Cadiz 52"],"ciudad":["Alicante"]}}}
+{"input":"Enviar la documentacion a C/ Segovia 53, Cordoba.","output":{"entities":{"domicilio":["C/ Segovia 53"],"ciudad":["Cordoba"]}}}
+{"input":"Enviar la documentacion a C. Zamora 54, Granada.","output":{"entities":{"domicilio":["C. Zamora 54"],"ciudad":["Granada"]}}}
+{"input":"Enviar la documentacion a C/ Soria 55, Oviedo.","output":{"entities":{"domicilio":["C/ Soria 55"],"ciudad":["Oviedo"]}}}
+{"input":"Enviar la documentacion a C. Lugo 56, Gijon.","output":{"entities":{"domicilio":["C. Lugo 56"],"ciudad":["Gijon"]}}}
+{"input":"Enviar la documentacion a C/ Burgos 57, Santander.","output":{"entities":{"domicilio":["C/ Burgos 57"],"ciudad":["Santander"]}}}
+{"input":"Enviar la documentacion a C. Navarra 58, Salamanca.","output":{"entities":{"domicilio":["C. Navarra 58"],"ciudad":["Salamanca"]}}}
+{"input":"Enviar la documentacion a C/ Mayor 59, Madrid.","output":{"entities":{"domicilio":["C/ Mayor 59"],"ciudad":["Madrid"]}}}
+{"input":"Enviar la documentacion a C. Real 60, Barcelona.","output":{"entities":{"domicilio":["C. Real 60"],"ciudad":["Barcelona"]}}}
+{"input":"La sede fiscal figura en Av. Libertad 101, Malaga.","output":{"entities":{"domicilio":["Av. Libertad 101"],"ciudad":["Malaga"]}}}
+{"input":"La sede fiscal figura en Avda. Constitucion 102, Bilbao.","output":{"entities":{"domicilio":["Avda. Constitucion 102"],"ciudad":["Bilbao"]}}}
+{"input":"La sede fiscal figura en Av. Europa 103, Zaragoza.","output":{"entities":{"domicilio":["Av. Europa 103"],"ciudad":["Zaragoza"]}}}
+{"input":"La sede fiscal figura en Avda. America 104, Murcia.","output":{"entities":{"domicilio":["Avda. America 104"],"ciudad":["Murcia"]}}}
+{"input":"La sede fiscal figura en Av. Mediterraneo 105, Valladolid.","output":{"entities":{"domicilio":["Av. Mediterraneo 105"],"ciudad":["Valladolid"]}}}
+{"input":"La sede fiscal figura en Avda. Atlantico 106, Alicante.","output":{"entities":{"domicilio":["Avda. Atlantico 106"],"ciudad":["Alicante"]}}}
+{"input":"La sede fiscal figura en Av. Andes 107, Cordoba.","output":{"entities":{"domicilio":["Av. Andes 107"],"ciudad":["Cordoba"]}}}
+{"input":"La sede fiscal figura en Avda. Reforma 108, Granada.","output":{"entities":{"domicilio":["Avda. Reforma 108"],"ciudad":["Granada"]}}}
+{"input":"La sede fiscal figura en Av. Central 109, Oviedo.","output":{"entities":{"domicilio":["Av. Central 109"],"ciudad":["Oviedo"]}}}
+{"input":"La sede fiscal figura en Avda. Imperial 110, Gijon.","output":{"entities":{"domicilio":["Avda. Imperial 110"],"ciudad":["Gijon"]}}}
+{"input":"La sede fiscal figura en Av. Castellana 111, Santander.","output":{"entities":{"domicilio":["Av. Castellana 111"],"ciudad":["Santander"]}}}
+{"input":"La sede fiscal figura en Avda. Diagonal 112, Salamanca.","output":{"entities":{"domicilio":["Avda. Diagonal 112"],"ciudad":["Salamanca"]}}}
+{"input":"La sede fiscal figura en Av. Naciones 113, Madrid.","output":{"entities":{"domicilio":["Av. Naciones 113"],"ciudad":["Madrid"]}}}
+{"input":"La sede fiscal figura en Avda. Industria 114, Barcelona.","output":{"entities":{"domicilio":["Avda. Industria 114"],"ciudad":["Barcelona"]}}}
+{"input":"La sede fiscal figura en Av. Universidad 115, Valencia.","output":{"entities":{"domicilio":["Av. Universidad 115"],"ciudad":["Valencia"]}}}
+{"input":"La sede fiscal figura en Avda. Estacion 116, Sevilla.","output":{"entities":{"domicilio":["Avda. Estacion 116"],"ciudad":["Sevilla"]}}}
+{"input":"La sede fiscal figura en Av. Comercio 117, Malaga.","output":{"entities":{"domicilio":["Av. Comercio 117"],"ciudad":["Malaga"]}}}
+{"input":"La sede fiscal figura en Avda. Republica 118, Bilbao.","output":{"entities":{"domicilio":["Avda. Republica 118"],"ciudad":["Bilbao"]}}}
+{"input":"La sede fiscal figura en Av. Paz 119, Zaragoza.","output":{"entities":{"domicilio":["Av. Paz 119"],"ciudad":["Zaragoza"]}}}
+{"input":"La sede fiscal figura en Avda. Innovacion 120, Murcia.","output":{"entities":{"domicilio":["Avda. Innovacion 120"],"ciudad":["Murcia"]}}}
+{"input":"La sede fiscal figura en Av. Atlantida 121, Valladolid.","output":{"entities":{"domicilio":["Av. Atlantida 121"],"ciudad":["Valladolid"]}}}
+{"input":"La sede fiscal figura en Avda. Horizonte 122, Alicante.","output":{"entities":{"domicilio":["Avda. Horizonte 122"],"ciudad":["Alicante"]}}}
+{"input":"La sede fiscal figura en Av. Libertad 123, Cordoba.","output":{"entities":{"domicilio":["Av. Libertad 123"],"ciudad":["Cordoba"]}}}
+{"input":"La sede fiscal figura en Avda. Constitucion 124, Granada.","output":{"entities":{"domicilio":["Avda. Constitucion 124"],"ciudad":["Granada"]}}}
+{"input":"La sede fiscal figura en Av. Europa 125, Oviedo.","output":{"entities":{"domicilio":["Av. Europa 125"],"ciudad":["Oviedo"]}}}
+{"input":"La sede fiscal figura en Avda. America 126, Gijon.","output":{"entities":{"domicilio":["Avda. America 126"],"ciudad":["Gijon"]}}}
+{"input":"La sede fiscal figura en Av. Mediterraneo 127, Santander.","output":{"entities":{"domicilio":["Av. Mediterraneo 127"],"ciudad":["Santander"]}}}
+{"input":"La sede fiscal figura en Avda. Atlantico 128, Salamanca.","output":{"entities":{"domicilio":["Avda. Atlantico 128"],"ciudad":["Salamanca"]}}}
+{"input":"La sede fiscal figura en Av. Andes 129, Madrid.","output":{"entities":{"domicilio":["Av. Andes 129"],"ciudad":["Madrid"]}}}
+{"input":"La sede fiscal figura en Avda. Reforma 130, Barcelona.","output":{"entities":{"domicilio":["Avda. Reforma 130"],"ciudad":["Barcelona"]}}}
+{"input":"La sede fiscal figura en Av. Central 131, Valencia.","output":{"entities":{"domicilio":["Av. Central 131"],"ciudad":["Valencia"]}}}
+{"input":"La sede fiscal figura en Avda. Imperial 132, Sevilla.","output":{"entities":{"domicilio":["Avda. Imperial 132"],"ciudad":["Sevilla"]}}}
+{"input":"La sede fiscal figura en Av. Castellana 133, Malaga.","output":{"entities":{"domicilio":["Av. Castellana 133"],"ciudad":["Malaga"]}}}
+{"input":"La sede fiscal figura en Avda. Diagonal 134, Bilbao.","output":{"entities":{"domicilio":["Avda. Diagonal 134"],"ciudad":["Bilbao"]}}}
+{"input":"La sede fiscal figura en Av. Naciones 135, Zaragoza.","output":{"entities":{"domicilio":["Av. Naciones 135"],"ciudad":["Zaragoza"]}}}
+{"input":"La sede fiscal figura en Avda. Industria 136, Murcia.","output":{"entities":{"domicilio":["Avda. Industria 136"],"ciudad":["Murcia"]}}}
+{"input":"La sede fiscal figura en Av. Universidad 137, Valladolid.","output":{"entities":{"domicilio":["Av. Universidad 137"],"ciudad":["Valladolid"]}}}
+{"input":"La sede fiscal figura en Avda. Estacion 138, Alicante.","output":{"entities":{"domicilio":["Avda. Estacion 138"],"ciudad":["Alicante"]}}}
+{"input":"La sede fiscal figura en Av. Comercio 139, Cordoba.","output":{"entities":{"domicilio":["Av. Comercio 139"],"ciudad":["Cordoba"]}}}
+{"input":"La sede fiscal figura en Avda. Republica 140, Granada.","output":{"entities":{"domicilio":["Avda. Republica 140"],"ciudad":["Granada"]}}}
+{"input":"La sede fiscal figura en Av. Paz 141, Oviedo.","output":{"entities":{"domicilio":["Av. Paz 141"],"ciudad":["Oviedo"]}}}
+{"input":"La sede fiscal figura en Avda. Innovacion 142, Gijon.","output":{"entities":{"domicilio":["Avda. Innovacion 142"],"ciudad":["Gijon"]}}}
+{"input":"La sede fiscal figura en Av. Atlantida 143, Santander.","output":{"entities":{"domicilio":["Av. Atlantida 143"],"ciudad":["Santander"]}}}
+{"input":"La sede fiscal figura en Avda. Horizonte 144, Salamanca.","output":{"entities":{"domicilio":["Avda. Horizonte 144"],"ciudad":["Salamanca"]}}}
+{"input":"La sede fiscal figura en Av. Libertad 145, Madrid.","output":{"entities":{"domicilio":["Av. Libertad 145"],"ciudad":["Madrid"]}}}
+{"input":"La sede fiscal figura en Avda. Constitucion 146, Barcelona.","output":{"entities":{"domicilio":["Avda. Constitucion 146"],"ciudad":["Barcelona"]}}}
+{"input":"La sede fiscal figura en Av. Europa 147, Valencia.","output":{"entities":{"domicilio":["Av. Europa 147"],"ciudad":["Valencia"]}}}
+{"input":"La sede fiscal figura en Avda. America 148, Sevilla.","output":{"entities":{"domicilio":["Avda. America 148"],"ciudad":["Sevilla"]}}}
+{"input":"La sede fiscal figura en Av. Mediterraneo 149, Malaga.","output":{"entities":{"domicilio":["Av. Mediterraneo 149"],"ciudad":["Malaga"]}}}
+{"input":"La sede fiscal figura en Avda. Atlantico 150, Bilbao.","output":{"entities":{"domicilio":["Avda. Atlantico 150"],"ciudad":["Bilbao"]}}}
+{"input":"Registrar el domicilio en C\\ Azahar 201, Zaragoza.","output":{"entities":{"domicilio":["C\\ Azahar 201"],"ciudad":["Zaragoza"]}}}
+{"input":"Registrar el domicilio en C\\ Naranjo 202, Murcia.","output":{"entities":{"domicilio":["C\\ Naranjo 202"],"ciudad":["Murcia"]}}}
+{"input":"Registrar el domicilio en C\\ Cipres 203, Valladolid.","output":{"entities":{"domicilio":["C\\ Cipres 203"],"ciudad":["Valladolid"]}}}
+{"input":"Registrar el domicilio en C\\ Almendro 204, Alicante.","output":{"entities":{"domicilio":["C\\ Almendro 204"],"ciudad":["Alicante"]}}}
+{"input":"Registrar el domicilio en C\\ Pizarro 205, Cordoba.","output":{"entities":{"domicilio":["C\\ Pizarro 205"],"ciudad":["Cordoba"]}}}
+{"input":"Registrar el domicilio en C\\ Colon 206, Granada.","output":{"entities":{"domicilio":["C\\ Colon 206"],"ciudad":["Granada"]}}}
+{"input":"Registrar el domicilio en C\\ Cervantes 207, Oviedo.","output":{"entities":{"domicilio":["C\\ Cervantes 207"],"ciudad":["Oviedo"]}}}
+{"input":"Registrar el domicilio en C\\ Lope 208, Gijon.","output":{"entities":{"domicilio":["C\\ Lope 208"],"ciudad":["Gijon"]}}}
+{"input":"Registrar el domicilio en C\\ Quevedo 209, Santander.","output":{"entities":{"domicilio":["C\\ Quevedo 209"],"ciudad":["Santander"]}}}
+{"input":"Registrar el domicilio en C\\ Goya 210, Salamanca.","output":{"entities":{"domicilio":["C\\ Goya 210"],"ciudad":["Salamanca"]}}}
+{"input":"Registrar el domicilio en C\\ Velazquez 211, Madrid.","output":{"entities":{"domicilio":["C\\ Velazquez 211"],"ciudad":["Madrid"]}}}
+{"input":"Registrar el domicilio en C\\ Murillo 212, Barcelona.","output":{"entities":{"domicilio":["C\\ Murillo 212"],"ciudad":["Barcelona"]}}}
+{"input":"Registrar el domicilio en C\\ Sorolla 213, Valencia.","output":{"entities":{"domicilio":["C\\ Sorolla 213"],"ciudad":["Valencia"]}}}
+{"input":"Registrar el domicilio en C\\ Zurbaran 214, Sevilla.","output":{"entities":{"domicilio":["C\\ Zurbaran 214"],"ciudad":["Sevilla"]}}}
+{"input":"Registrar el domicilio en C\\ Mistral 215, Malaga.","output":{"entities":{"domicilio":["C\\ Mistral 215"],"ciudad":["Malaga"]}}}
+{"input":"Registrar el domicilio en C\\ Neruda 216, Bilbao.","output":{"entities":{"domicilio":["C\\ Neruda 216"],"ciudad":["Bilbao"]}}}
+{"input":"Registrar el domicilio en C\\ Dali 217, Zaragoza.","output":{"entities":{"domicilio":["C\\ Dali 217"],"ciudad":["Zaragoza"]}}}
+{"input":"Registrar el domicilio en C\\ Gaudi 218, Murcia.","output":{"entities":{"domicilio":["C\\ Gaudi 218"],"ciudad":["Murcia"]}}}
+{"input":"Registrar el domicilio en C\\ Picasso 219, Valladolid.","output":{"entities":{"domicilio":["C\\ Picasso 219"],"ciudad":["Valladolid"]}}}
+{"input":"Registrar el domicilio en C\\ Miro 220, Alicante.","output":{"entities":{"domicilio":["C\\ Miro 220"],"ciudad":["Alicante"]}}}
+{"input":"Registrar el domicilio en C\\ Albeniz 221, Cordoba.","output":{"entities":{"domicilio":["C\\ Albeniz 221"],"ciudad":["Cordoba"]}}}
+{"input":"Registrar el domicilio en C\\ Falla 222, Granada.","output":{"entities":{"domicilio":["C\\ Falla 222"],"ciudad":["Granada"]}}}
+{"input":"Registrar el domicilio en C\\ Turina 223, Oviedo.","output":{"entities":{"domicilio":["C\\ Turina 223"],"ciudad":["Oviedo"]}}}
+{"input":"Registrar el domicilio en C\\ Azahar 224, Gijon.","output":{"entities":{"domicilio":["C\\ Azahar 224"],"ciudad":["Gijon"]}}}
+{"input":"Registrar el domicilio en C\\ Naranjo 225, Santander.","output":{"entities":{"domicilio":["C\\ Naranjo 225"],"ciudad":["Santander"]}}}
+{"input":"Registrar el domicilio en C\\ Cipres 226, Salamanca.","output":{"entities":{"domicilio":["C\\ Cipres 226"],"ciudad":["Salamanca"]}}}
+{"input":"Registrar el domicilio en C\\ Almendro 227, Madrid.","output":{"entities":{"domicilio":["C\\ Almendro 227"],"ciudad":["Madrid"]}}}
+{"input":"Registrar el domicilio en C\\ Pizarro 228, Barcelona.","output":{"entities":{"domicilio":["C\\ Pizarro 228"],"ciudad":["Barcelona"]}}}
+{"input":"Registrar el domicilio en C\\ Colon 229, Valencia.","output":{"entities":{"domicilio":["C\\ Colon 229"],"ciudad":["Valencia"]}}}
+{"input":"Registrar el domicilio en C\\ Cervantes 230, Sevilla.","output":{"entities":{"domicilio":["C\\ Cervantes 230"],"ciudad":["Sevilla"]}}}
+{"input":"Registrar el domicilio en C\\ Lope 231, Malaga.","output":{"entities":{"domicilio":["C\\ Lope 231"],"ciudad":["Malaga"]}}}
+{"input":"Registrar el domicilio en C\\ Quevedo 232, Bilbao.","output":{"entities":{"domicilio":["C\\ Quevedo 232"],"ciudad":["Bilbao"]}}}
+{"input":"Registrar el domicilio en C\\ Goya 233, Zaragoza.","output":{"entities":{"domicilio":["C\\ Goya 233"],"ciudad":["Zaragoza"]}}}
+{"input":"Registrar el domicilio en C\\ Velazquez 234, Murcia.","output":{"entities":{"domicilio":["C\\ Velazquez 234"],"ciudad":["Murcia"]}}}
+{"input":"Registrar el domicilio en C\\ Murillo 235, Valladolid.","output":{"entities":{"domicilio":["C\\ Murillo 235"],"ciudad":["Valladolid"]}}}
+{"input":"Registrar el domicilio en C\\ Sorolla 236, Alicante.","output":{"entities":{"domicilio":["C\\ Sorolla 236"],"ciudad":["Alicante"]}}}
+{"input":"Registrar el domicilio en C\\ Zurbaran 237, Cordoba.","output":{"entities":{"domicilio":["C\\ Zurbaran 237"],"ciudad":["Cordoba"]}}}
+{"input":"Registrar el domicilio en C\\ Mistral 238, Granada.","output":{"entities":{"domicilio":["C\\ Mistral 238"],"ciudad":["Granada"]}}}
+{"input":"Registrar el domicilio en C\\ Neruda 239, Oviedo.","output":{"entities":{"domicilio":["C\\ Neruda 239"],"ciudad":["Oviedo"]}}}
+{"input":"Registrar el domicilio en C\\ Dali 240, Gijon.","output":{"entities":{"domicilio":["C\\ Dali 240"],"ciudad":["Gijon"]}}}
+{"input":"Registrar el domicilio en C\\ Gaudi 241, Santander.","output":{"entities":{"domicilio":["C\\ Gaudi 241"],"ciudad":["Santander"]}}}
+{"input":"Registrar el domicilio en C\\ Picasso 242, Salamanca.","output":{"entities":{"domicilio":["C\\ Picasso 242"],"ciudad":["Salamanca"]}}}
+{"input":"Registrar el domicilio en C\\ Miro 243, Madrid.","output":{"entities":{"domicilio":["C\\ Miro 243"],"ciudad":["Madrid"]}}}
+{"input":"Registrar el domicilio en C\\ Albeniz 244, Barcelona.","output":{"entities":{"domicilio":["C\\ Albeniz 244"],"ciudad":["Barcelona"]}}}
+{"input":"Registrar el domicilio en C\\ Falla 245, Valencia.","output":{"entities":{"domicilio":["C\\ Falla 245"],"ciudad":["Valencia"]}}}
+{"input":"Registrar el domicilio en C\\ Turina 246, Sevilla.","output":{"entities":{"domicilio":["C\\ Turina 246"],"ciudad":["Sevilla"]}}}
+{"input":"Registrar el domicilio en C\\ Azahar 247, Malaga.","output":{"entities":{"domicilio":["C\\ Azahar 247"],"ciudad":["Malaga"]}}}
+{"input":"Registrar el domicilio en C\\ Naranjo 248, Bilbao.","output":{"entities":{"domicilio":["C\\ Naranjo 248"],"ciudad":["Bilbao"]}}}
+{"input":"Registrar el domicilio en C\\ Cipres 249, Zaragoza.","output":{"entities":{"domicilio":["C\\ Cipres 249"],"ciudad":["Zaragoza"]}}}
+{"input":"Registrar el domicilio en C\\ Almendro 250, Murcia.","output":{"entities":{"domicilio":["C\\ Almendro 250"],"ciudad":["Murcia"]}}}
+{"input":"La direccion fiscal es C/ Quevedo 301, Cordoba.","output":{"entities":{"domicilio":["C/ Quevedo 301"],"ciudad":["Cordoba"]}}}
+{"input":"La direccion fiscal es C/ Goya 302, Granada.","output":{"entities":{"domicilio":["C/ Goya 302"],"ciudad":["Granada"]}}}
+{"input":"La direccion fiscal es C/ Velazquez 303, Oviedo.","output":{"entities":{"domicilio":["C/ Velazquez 303"],"ciudad":["Oviedo"]}}}
+{"input":"La direccion fiscal es C/ Murillo 304, Gijon.","output":{"entities":{"domicilio":["C/ Murillo 304"],"ciudad":["Gijon"]}}}
+{"input":"La direccion fiscal es C/ Sorolla 305, Santander.","output":{"entities":{"domicilio":["C/ Sorolla 305"],"ciudad":["Santander"]}}}
+{"input":"La direccion fiscal es C/ Zurbaran 306, Salamanca.","output":{"entities":{"domicilio":["C/ Zurbaran 306"],"ciudad":["Salamanca"]}}}
+{"input":"La direccion fiscal es C/ Mistral 307, Madrid.","output":{"entities":{"domicilio":["C/ Mistral 307"],"ciudad":["Madrid"]}}}
+{"input":"La direccion fiscal es C/ Neruda 308, Barcelona.","output":{"entities":{"domicilio":["C/ Neruda 308"],"ciudad":["Barcelona"]}}}
+{"input":"La direccion fiscal es C/ Dali 309, Valencia.","output":{"entities":{"domicilio":["C/ Dali 309"],"ciudad":["Valencia"]}}}
+{"input":"La direccion fiscal es C/ Gaudi 310, Sevilla.","output":{"entities":{"domicilio":["C/ Gaudi 310"],"ciudad":["Sevilla"]}}}
+{"input":"La direccion fiscal es C/ Picasso 311, Malaga.","output":{"entities":{"domicilio":["C/ Picasso 311"],"ciudad":["Malaga"]}}}
+{"input":"La direccion fiscal es C/ Miro 312, Bilbao.","output":{"entities":{"domicilio":["C/ Miro 312"],"ciudad":["Bilbao"]}}}
+{"input":"La direccion fiscal es C/ Albeniz 313, Zaragoza.","output":{"entities":{"domicilio":["C/ Albeniz 313"],"ciudad":["Zaragoza"]}}}
+{"input":"La direccion fiscal es C/ Falla 314, Murcia.","output":{"entities":{"domicilio":["C/ Falla 314"],"ciudad":["Murcia"]}}}
+{"input":"La direccion fiscal es C/ Turina 315, Valladolid.","output":{"entities":{"domicilio":["C/ Turina 315"],"ciudad":["Valladolid"]}}}
+{"input":"La direccion fiscal es C/ Azahar 316, Alicante.","output":{"entities":{"domicilio":["C/ Azahar 316"],"ciudad":["Alicante"]}}}
+{"input":"La direccion fiscal es C/ Naranjo 317, Cordoba.","output":{"entities":{"domicilio":["C/ Naranjo 317"],"ciudad":["Cordoba"]}}}
+{"input":"La direccion fiscal es C/ Cipres 318, Granada.","output":{"entities":{"domicilio":["C/ Cipres 318"],"ciudad":["Granada"]}}}
+{"input":"La direccion fiscal es C/ Almendro 319, Oviedo.","output":{"entities":{"domicilio":["C/ Almendro 319"],"ciudad":["Oviedo"]}}}
+{"input":"La direccion fiscal es C/ Pizarro 320, Gijon.","output":{"entities":{"domicilio":["C/ Pizarro 320"],"ciudad":["Gijon"]}}}
+{"input":"La direccion fiscal es C/ Colon 321, Santander.","output":{"entities":{"domicilio":["C/ Colon 321"],"ciudad":["Santander"]}}}
+{"input":"La direccion fiscal es C/ Cervantes 322, Salamanca.","output":{"entities":{"domicilio":["C/ Cervantes 322"],"ciudad":["Salamanca"]}}}
+{"input":"La direccion fiscal es C/ Lope 323, Madrid.","output":{"entities":{"domicilio":["C/ Lope 323"],"ciudad":["Madrid"]}}}
+{"input":"La direccion fiscal es C/ Quevedo 324, Barcelona.","output":{"entities":{"domicilio":["C/ Quevedo 324"],"ciudad":["Barcelona"]}}}
+{"input":"La direccion fiscal es C/ Goya 325, Valencia.","output":{"entities":{"domicilio":["C/ Goya 325"],"ciudad":["Valencia"]}}}
+{"input":"La direccion fiscal es C/ Velazquez 326, Sevilla.","output":{"entities":{"domicilio":["C/ Velazquez 326"],"ciudad":["Sevilla"]}}}
+{"input":"La direccion fiscal es C/ Murillo 327, Malaga.","output":{"entities":{"domicilio":["C/ Murillo 327"],"ciudad":["Malaga"]}}}
+{"input":"La direccion fiscal es C/ Sorolla 328, Bilbao.","output":{"entities":{"domicilio":["C/ Sorolla 328"],"ciudad":["Bilbao"]}}}
+{"input":"La direccion fiscal es C/ Zurbaran 329, Zaragoza.","output":{"entities":{"domicilio":["C/ Zurbaran 329"],"ciudad":["Zaragoza"]}}}
+{"input":"La direccion fiscal es C/ Mistral 330, Murcia.","output":{"entities":{"domicilio":["C/ Mistral 330"],"ciudad":["Murcia"]}}}
+{"input":"La direccion fiscal es C/ Neruda 331, Valladolid.","output":{"entities":{"domicilio":["C/ Neruda 331"],"ciudad":["Valladolid"]}}}
+{"input":"La direccion fiscal es C/ Dali 332, Alicante.","output":{"entities":{"domicilio":["C/ Dali 332"],"ciudad":["Alicante"]}}}
+{"input":"La direccion fiscal es C/ Gaudi 333, Cordoba.","output":{"entities":{"domicilio":["C/ Gaudi 333"],"ciudad":["Cordoba"]}}}
+{"input":"La direccion fiscal es C/ Picasso 334, Granada.","output":{"entities":{"domicilio":["C/ Picasso 334"],"ciudad":["Granada"]}}}
+{"input":"La direccion fiscal es C/ Miro 335, Oviedo.","output":{"entities":{"domicilio":["C/ Miro 335"],"ciudad":["Oviedo"]}}}
+{"input":"La direccion fiscal es C/ Albeniz 336, Gijon.","output":{"entities":{"domicilio":["C/ Albeniz 336"],"ciudad":["Gijon"]}}}
+{"input":"La direccion fiscal es C/ Falla 337, Santander.","output":{"entities":{"domicilio":["C/ Falla 337"],"ciudad":["Santander"]}}}
+{"input":"La direccion fiscal es C/ Turina 338, Salamanca.","output":{"entities":{"domicilio":["C/ Turina 338"],"ciudad":["Salamanca"]}}}
+{"input":"La direccion fiscal es C/ Azahar 339, Madrid.","output":{"entities":{"domicilio":["C/ Azahar 339"],"ciudad":["Madrid"]}}}
+{"input":"La direccion fiscal es C/ Naranjo 340, Barcelona.","output":{"entities":{"domicilio":["C/ Naranjo 340"],"ciudad":["Barcelona"]}}}
+{"input":"La direccion fiscal es C/ Cipres 341, Valencia.","output":{"entities":{"domicilio":["C/ Cipres 341"],"ciudad":["Valencia"]}}}
+{"input":"La direccion fiscal es C/ Almendro 342, Sevilla.","output":{"entities":{"domicilio":["C/ Almendro 342"],"ciudad":["Sevilla"]}}}
+{"input":"La direccion fiscal es C/ Pizarro 343, Malaga.","output":{"entities":{"domicilio":["C/ Pizarro 343"],"ciudad":["Malaga"]}}}
+{"input":"La direccion fiscal es C/ Colon 344, Bilbao.","output":{"entities":{"domicilio":["C/ Colon 344"],"ciudad":["Bilbao"]}}}
+{"input":"La direccion fiscal es C/ Cervantes 345, Zaragoza.","output":{"entities":{"domicilio":["C/ Cervantes 345"],"ciudad":["Zaragoza"]}}}
+{"input":"La direccion fiscal es C/ Lope 346, Murcia.","output":{"entities":{"domicilio":["C/ Lope 346"],"ciudad":["Murcia"]}}}
+{"input":"La direccion fiscal es C/ Quevedo 347, Valladolid.","output":{"entities":{"domicilio":["C/ Quevedo 347"],"ciudad":["Valladolid"]}}}
+{"input":"La direccion fiscal es C/ Goya 348, Alicante.","output":{"entities":{"domicilio":["C/ Goya 348"],"ciudad":["Alicante"]}}}
+{"input":"La direccion fiscal es C/ Velazquez 349, Cordoba.","output":{"entities":{"domicilio":["C/ Velazquez 349"],"ciudad":["Cordoba"]}}}
+{"input":"La direccion fiscal es C/ Murillo 350, Granada.","output":{"entities":{"domicilio":["C/ Murillo 350"],"ciudad":["Granada"]}}}
