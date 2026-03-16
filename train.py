@@ -17,8 +17,14 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from gliner2 import GLiNER2Trainer
-from gliner2.config import TrainingConfig
+from gliner2 import Extractor
+from gliner2.old_trainer import (
+    ExtractorDataCollator,
+    ExtractorDataset,
+    ExtractorTrainer,
+    TrainingArguments,
+)
+from gliner2.training.lora import LoRAConfig, apply_lora_to_model
 
 
 def parse_args() -> argparse.Namespace:
@@ -44,6 +50,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--eval-steps", type=int, default=50)
     parser.add_argument("--save-steps", type=int, default=50)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--lora-r", type=int, default=16)
+    parser.add_argument("--lora-alpha", type=int, default=32)
+    parser.add_argument("--lora-dropout", type=float, default=0.05)
     return parser.parse_args()
 
 
@@ -59,32 +68,48 @@ def ensure_file(path_str: str | None, kind: str) -> str | None:
 def main() -> None:
     args = parse_args()
     train_file = ensure_file(args.train_file, "train")
-    val_file = ensure_file(args.val_file, "validacion")
+    _ = ensure_file(args.val_file, "validacion")
 
-    config = TrainingConfig(
-        num_epochs=args.num_epochs,
-        train_batch_size=args.batch_size,
+    model = Extractor.from_pretrained(args.base_model)
+    lora_config = LoRAConfig(
+        enabled=True,
+        r=args.lora_r,
+        alpha=float(args.lora_alpha),
+        dropout=args.lora_dropout,
+    )
+    model, lora_layers = apply_lora_to_model(model, lora_config)
+    model._lora_layers = lora_layers
+
+    processor = model.processor
+    train_dataset = ExtractorDataset(train_file)
+    data_collator = ExtractorDataCollator(processor, is_training=True)
+
+    training_args = TrainingArguments(
+        output_dir=args.output_dir,
+        do_train=True,
+        per_device_train_batch_size=args.batch_size,
+        gradient_accumulation_steps=args.gradient_accumulation_steps,
         learning_rate=args.learning_rate,
         warmup_ratio=args.warmup_ratio,
-        max_length=args.max_length,
-        gradient_accumulation_steps=args.gradient_accumulation_steps,
-        eval_steps=args.eval_steps,
+        num_train_epochs=float(args.num_epochs),
         save_steps=args.save_steps,
-        output_dir=args.output_dir,
+        eval_steps=args.eval_steps,
+        eval_strategy="no",
+        logging_steps=max(1, min(10, args.save_steps)),
+        save_total_limit=2,
+        remove_unused_columns=False,
         seed=args.seed,
     )
-
-    trainer = GLiNER2Trainer(
-        model_name=args.base_model,
-        config=config,
+    trainer = ExtractorTrainer(
+        model=model,
+        args=training_args,
+        train_dataset=train_dataset,
+        data_collator=data_collator,
     )
+    trainer.train()
 
-    trainer.train(
-        train_data=train_file,
-        val_data=val_file,
-    )
-
-    trainer.save_model(args.output_dir)
+    # Fusiona LoRA y guarda un modelo normal compatible con inferencia.
+    model.save_pretrained(args.output_dir)
     print(f"Modelo entrenado y guardado en: {args.output_dir}")
 
 

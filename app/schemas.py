@@ -40,3 +40,22 @@ class ExtractedEntity(BaseModel):
 class ExtractResponse(BaseModel):
     model: str
     entities: list[ExtractedEntity]
+
+
+class DocumentChunkResult(BaseModel):
+    chunk_index: int
+    entities: list[ExtractedEntity]
+
+
+class DocumentCheckResponse(BaseModel):
+    model: str
+    total_words: int
+    total_chunks: int
+    chunks: list[DocumentChunkResult]
+    entities: list[ExtractedEntity]
+
+
+class TrainResponse(BaseModel):
+    status: str
+    base_model: str
+    output_model_dir: str
